@@ -1,10 +1,15 @@
-const Home = () => {
+import Carousel from "../Carousel";
+import Navbar from "./Navbar";
+import Section from "./Section";
 
-    return (
-        <div>
-           <p>Section</p>
-        </div>
-    )
-}
+const Home = () => {
+  return (
+    <div>
+      <Navbar />
+      <Carousel />
+      <Section />
+    </div>
+  );
+};
 
 export default Home;

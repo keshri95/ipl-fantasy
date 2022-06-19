@@ -22,7 +22,7 @@ const Navbar = () => {
               <a href="#">POINTS TABLE</a>
             </li>
             <li>
-              <a href="#">FANTASY</a>
+              <a to="/" href="#" >FANTASY</a>
             </li>
             <li>
               <a href="#">TEAMS</a>
@@ -53,8 +53,8 @@ const Navbar = () => {
       </Header>
       {/* <CarouselSection>
         <div>
-            <p>IPL Fantasy</p>
-            <img src="/images/ipl-logo" alt="logo" />
+          <p>IPL Fantasy</p>
+          <img src="/images/ipl-logo" alt="logo" />
         </div>
       </CarouselSection> */}
     </Wrap>
@@ -95,19 +95,19 @@ const Header = styled.div`
   }
 `;
 
-const CarouselSection = styled.div`
-//   background-image: url("/images/blogInrBg.png");
-  background: linear-gradient(
-    92.04deg,
-    #18184a 24.18%,
-    #19398a 50.95%,
-    #18184a 110.32%
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid red;
-`;
+// const CarouselSection = styled.div`
+//   //   background-image: url("/images/blogInrBg.png");
+//   background: linear-gradient(
+//     92.04deg,
+//     #18184a 24.18%,
+//     #19398a 50.95%,
+//     #18184a 110.32%
+//   );
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   border: 1px solid red;
+// `;
 
 const Wrap = styled.div`
-    border: 1px solid red;
+  border: 1px solid red;
 `;
